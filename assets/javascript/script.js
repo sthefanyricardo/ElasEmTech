@@ -103,3 +103,9 @@ function scrollToPrev() {
 		$('html,body').stop().animate({ scrollTop: 0}, 500);
 	}
 }
+
+/* index script */
+$(function () {
+    // init feather icons
+    feather.replace();
+});
