@@ -1,28 +1,3 @@
-//=====================================//
-//======== Font license info  =========//
-//=====================================//
-/*    
-## Entypo
-   Copyright (C) 2012 by Daniel Bruce
-   Author:    Daniel Buce
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.entypo.com
-
-## Font Awesome
-   Copyright (C) 2012 by Dave Gandy
-   Author:    Dave Gandy
-   License:   CC BY 3.0 (http://creativecommons.org/licenses/by/3.0/)
-   Homepage:  https://fortawesome.github.com/Font-Awesome/
-
-## Web Symbols
-   Copyright (c) 2011 by Just Be Nice studio. All rights reserved.
-   Author:    Just Be Nice studio
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.justbenicestudio.com/studio/websymbols/
-*/
-//=====================================//
-
-
 $('nav ul#main_nav').on('click','li',function(){
 	var $type=$(this).attr('data-title');
 	$('nav ul#main_nav li').removeClass('active')
