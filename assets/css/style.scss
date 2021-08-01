@@ -32,27 +32,27 @@ body {
 
 .topnav {
 	overflow: hidden;
-	background-color: #333;
+	background-color: #E0A99C;
 }
   
 .topnav a {
 	float: left;
 	display: block;
-	color: #f2f2f2;
+	color:  #0d0f14;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 17px;
+	font-weight: bold;
 }
   
 .topnav a:hover {
-	background-color: #ddd;
-	color: black;
+	background-color: #e9c3ba;
+	color: #0d0f14;
 }
   
 .topnav a.active {
-	background-color: #04AA6D;
-	color: white;
+	background-color: #52CC9B;
+	color: #0d0f14;
 }
   
 .topnav .icon {
@@ -91,7 +91,7 @@ ul.topnav li.right {float: right;}
 	  text-align: left;
 	}
 }
-
+  
 h2 {
 	margin: 5%;
 	text-align: center;
@@ -107,13 +107,13 @@ h3{
 }
 
 footer {
-	font-size: 0.75rem;
-	background-color: #eaeaea;
-	color: #333;
+	font-size: 1rem;
+	background-color: #E0A99C;
+	color: #0d0f14;
 }
   
 footer p {
-	font-weight: 300;
+	font-weight: 500;
 	padding: 1rem;
 	margin: 0 auto;
 	max-width: 500px;
@@ -121,16 +121,21 @@ footer p {
 }
   
 footer p span {
-	color: red;
+	color: purple;
+	font-size: medium;
 }
   
 footer a {
 	text-decoration: none;
-	color: inherit;
+	color: #0d0f14;
 }
   
 footer strong {
 	font-weight: 500;
+}
+
+footer a:hover{
+	color: purple;
 }
 
 .timeline {
