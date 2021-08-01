@@ -15,6 +15,9 @@ $color4: #555ac0;
 $color5: #24b47e;
 $color6: #aff1b6;
 
+$color7: #df168b;
+$color8: #ffb6e1;
+
 * {
   box-sizing: border-box;
 }
@@ -341,6 +344,39 @@ footer a:hover{
       }
       .timeline__event__title {
         color: $color5;
+      }
+      .timeline__event__title {
+      }
+    }
+
+    &--type4 {
+      &:after {
+        background: $color8;
+      }
+      .timeline__event__date {
+        color: $color7;
+        background: $color8;
+      }
+
+      &:nth-child(2n + 1) {
+        .timeline__event__icon {
+          &:before,
+          &:after {
+            background: $color7;
+          }
+        }
+      }
+
+      .timeline__event__icon {
+        background: $color7;
+        color: $color8;
+        &:before,
+        &:after {
+          background: $color7;
+        }
+      }
+      .timeline__event__title {
+        color: $color8;
       }
       .timeline__event__title {
       }

@@ -329,6 +329,32 @@ footer a:hover{
 	color: #24b47e;
 }
 
+.timeline__event--type4:after {
+	background: #df168b;
+}
+
+.timeline__event--type4 .timeline__event__date {
+	color: #ffb6e1;
+	background-color: #df168b;
+}
+
+.timeline__event--type4:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type4:nth-child(2n+1) .timeline__event__icon:after {
+	background: #ffb6e1;
+}
+
+.timeline__event--type4 .timeline__event__icon {
+	background: #ffb6e1;
+	color: #df168b;
+}
+  
+.timeline__event--type4 .timeline__event__icon:before, .timeline__event--type4 .timeline__event__icon:after {
+	background: #ffb6e1;
+}
+  
+.timeline__event--type4 .timeline__event__title {
+	color: #df168b;
+}
+
 .timeline__event:last-child .timeline__event__icon:before {
 	content: none;
 }
