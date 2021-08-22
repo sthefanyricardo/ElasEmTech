@@ -6,7 +6,7 @@ no mesmo.
 
 :raising_hand_woman:	
 
-:green_heart: Dias dos nossos encontros:  
+:calendar: Dias dos nossos encontros:  
 - 27/07/2021 das 19:00 às 21:00;  
   - **Atividades**: Fazer a minha biografia atráves de uma linha do tempo e um SWOT Pessoal.
 - 03/08/2021 das 19:00 às 21:00;  
